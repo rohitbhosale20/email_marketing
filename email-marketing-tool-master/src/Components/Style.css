@@ -1,0 +1,30 @@
+.sub-menu {
+    display: none; /* Initially hide the submenu */
+    position: absolute;
+    background-color: beige; /* Set the background color to beige */
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 10px; /* Add border radius for curved edges */
+  }
+  
+  .sub-menu li {
+    list-style: none; /* Remove default list styles */
+    text-align: center; /* Align submenu items to the center */
+  }
+  
+  .sub-menu li a {
+    display: block;
+    padding: 10px; /* Add padding to the submenu items */
+    text-decoration: none;
+    color: #333; /* Set color for submenu items */
+  }
+  
+  .sub-menu li a:hover {
+    color: #FF5733; /* Change color when hovering over submenu items */
+  }
+  
+  .nav-link:hover .sub-menu {
+    display: block; /* Display the submenu when hovering over the nav-link */
+  }
+  
